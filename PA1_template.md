@@ -161,4 +161,4 @@ ggplot(averages, aes(interval, steps)) + geom_line() + facet_grid(day ~ .) +
 
 ![](PA1_template_files/figure-html/unnamed-chunk-8-1.png) 
 
-We clearly see that over the week end consistently more steps taken as naturally there is more time to move around , whereas over weekdays there is a sudden spike of steps and then it drops.
+We clearly see that over the week end consistently more steps taken as naturally there is more time to move around, whereas over weekdays there is a sudden spike of steps and then the activity drops.

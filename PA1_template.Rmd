@@ -109,4 +109,4 @@ ggplot(averages, aes(interval, steps)) + geom_line() + facet_grid(day ~ .) +
     xlab("5-minute interval") + ylab("Number of steps")
 ```
 
-We clearly see that over the week end consistently more steps taken as naturally there is more time to move around , whereas over weekdays there is a sudden spike of steps and then it drops.
+We clearly see that over the week end consistently more steps taken as naturally there is more time to move around, whereas over weekdays there is a sudden spike of steps and then the activity drops.
